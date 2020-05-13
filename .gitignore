@@ -67,3 +67,4 @@ crashlytics-build.properties
 /webrtc_logs_*
 /.env.json
 /test
+/tes.zip

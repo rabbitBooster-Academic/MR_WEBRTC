@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2a4395380a97e8548ae9521b84a24bc4
+guid: ae359b75198a6b7479034e16e2dc7fbe
 PluginImporter:
   externalObjects: {}
   serializedVersion: 2
@@ -18,9 +18,8 @@ PluginImporter:
       settings:
         Exclude Editor: 1
         Exclude Linux64: 1
-        Exclude Lumin: 1
+        Exclude Lumin: 0
         Exclude OSXUniversal: 1
-        Exclude WebGL: 1
         Exclude Win: 1
         Exclude Win64: 1
   - first:
@@ -39,7 +38,7 @@ PluginImporter:
   - first:
       Lumin: Lumin
     second:
-      enabled: 0
+      enabled: 1
       settings: {}
   - first:
       Standalone: Linux64

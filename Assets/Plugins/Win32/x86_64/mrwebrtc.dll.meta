@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 39b57d3e3a74fe944826f061f56eb4ee
+guid: 0418638ee331151449e8bdc3274f9ff6
 PluginImporter:
   externalObjects: {}
   serializedVersion: 2
@@ -17,15 +17,11 @@ PluginImporter:
       enabled: 0
       settings:
         Exclude Editor: 0
-        Exclude Linux: 0
         Exclude Linux64: 0
-        Exclude LinuxUniversal: 0
         Exclude Lumin: 1
         Exclude OSXUniversal: 0
-        Exclude WebGL: 0
         Exclude Win: 1
         Exclude Win64: 0
-        Exclude WindowsStoreApps: 1
   - first:
       Any: 
     second:
@@ -38,43 +34,24 @@ PluginImporter:
       settings:
         CPU: x86_64
         DefaultValueInitialized: true
-        OS: Windows
+        OS: AnyOS
   - first:
-      Facebook: Win
+      Lumin: Lumin
     second:
       enabled: 0
-      settings:
-        CPU: None
-  - first:
-      Facebook: Win64
-    second:
-      enabled: 0
-      settings:
-        CPU: AnyCPU
-  - first:
-      Standalone: Linux
-    second:
-      enabled: 1
-      settings:
-        CPU: x86
+      settings: {}
   - first:
       Standalone: Linux64
     second:
       enabled: 1
       settings:
-        CPU: AnyCPU
-  - first:
-      Standalone: LinuxUniversal
-    second:
-      enabled: 1
-      settings:
-        CPU: AnyCPU
+        CPU: x86_64
   - first:
       Standalone: OSXUniversal
     second:
       enabled: 1
       settings:
-        CPU: AnyCPU
+        CPU: x86_64
   - first:
       Standalone: Win
     second:
@@ -86,22 +63,7 @@ PluginImporter:
     second:
       enabled: 1
       settings:
-        CPU: AnyCPU
-  - first:
-      WebGL: WebGL
-    second:
-      enabled: 1
-      settings: {}
-  - first:
-      Windows Store Apps: WindowsStoreApps
-    second:
-      enabled: 0
-      settings:
-        CPU: AnyCPU
-        DontProcess: false
-        PlaceholderPath: 
-        SDK: AnySDK
-        ScriptingBackend: AnyScriptingBackend
+        CPU: x86_64
   userData: 
   assetBundleName: 
   assetBundleVariant: 

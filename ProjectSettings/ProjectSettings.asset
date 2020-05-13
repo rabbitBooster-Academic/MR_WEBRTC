@@ -659,7 +659,7 @@ PlayerSettings:
     m_ModelFolderPath: 
     m_PortalFolderPath: 
   luminCert:
-    m_CertPath: C:/Users/rabbi/source/repos/rabbit-go/IkeiMagicLeapTest/ikei_magicleaptest.cert
+    m_CertPath: C:/Users/yusuk/source/repos/rabbit-go/MR_WEBRTC/new_magicleaptest.cert
     m_SignPackage: 1
   luminIsChannelApp: 0
   luminVersion:
